@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 // import {fragment} from 'react';
 
-export const FirstApp =({ title, subtitle })=> {
+export const FirstApp =({ title, subtitle,name })=> {
     // const newMessage = [1,2,3,4,5];
     const messageFunction =(a,b)=> { 
         const newMessage = {
@@ -20,6 +20,7 @@ export const FirstApp =({ title, subtitle })=> {
     <h1>{ title }</h1>
     {/* <h2>David Escandon</h2> */}
     <h3>{subtitle}</h3>
+    <p>{name}</p>
     </>
   )
 }
